@@ -1,5 +1,5 @@
-FROM python:2.7
+FROM elyase/staticpython
 
-COPY main.py /tmp/main.py
+COPY main.py /main.py
 
-CMD ["python", "/tmp/main.py"]
+CMD ["python", "/main.py"]
